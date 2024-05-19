@@ -1,4 +1,3 @@
-a = (1, 2, 3)
-x, y, z = a
-
-print(z)
+def next(num):
+  return (num+1)%4
+print(next(3))
