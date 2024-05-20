@@ -1,3 +1,5 @@
+#https://www.acmicpc.net/problem/15686
+
 import sys
 from itertools import combinations
 sys.stdin = open('in.txt', 'r')
@@ -36,3 +38,6 @@ for i in combi:
   minDis = min(minDis, calcDis(i))
   
 print(minDis)
+
+#그냥 조합을 대충 구해서 시간오류났음
+#그냥 이터툴 써서 하니까 바로통과.
